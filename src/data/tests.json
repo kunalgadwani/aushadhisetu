@@ -1,0 +1,1832 @@
+[
+  {
+    "name": "Stool Routine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Urine Routine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Thyroid Profile",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lipid Profile",
+    "category": "Laboratory",
+    "subcategories": [
+      "Fasting",
+      "Postprandial",
+      "Random"
+    ]
+  },
+  {
+    "name": "KFT",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "LFT",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "ESR",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "CBC",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "EEG",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "ECG",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "X-Ray",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Ultrasound Abdomen",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "MRI Scan",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "CT Scan",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Chest X-Ray",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Bone Density Scan (DEXA)",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Blood Urea Nitrogen",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Blood Grouping and Rh Typing",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Blood Glucose PP",
+    "category": "Laboratory",
+    "subcategories": [
+      "Fasting",
+      "Postprandial",
+      "Random"
+    ]
+  },
+  {
+    "name": "Blood Glucose Fasting",
+    "category": "Laboratory",
+    "subcategories": [
+      "Fasting",
+      "Postprandial",
+      "Random"
+    ]
+  },
+  {
+    "name": "Celiac Disease Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Cerebrospinal Fluid (CSF) Analysis",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ceruloplasmin Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Chickenpox and Shingles Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Chlamydia Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Chloride Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Cholesterol Levels",
+    "category": "Laboratory",
+    "subcategories": [
+      "Fasting",
+      "Postprandial",
+      "Random"
+    ]
+  },
+  {
+    "name": "Chorionic Villus Sampling (CVS)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Chymotrypsin in Stool",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Coagulation Factor Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Cognitive Testing",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Cold Stimulation Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Colorectal Cancer Screening Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Colposcopy",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Complement Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Complete Blood Count (CBC)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Comprehensive Metabolic Panel (CMP)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Concussion Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Cord Blood Testing and Banking",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Cortisol Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Creatine Kinase",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Creatinine Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Crystals in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "CSF Immunoglobulin G (IgG) Index",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Cytomegalovirus (CMV) Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "D-Dimer Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Dengue Fever Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Dental Exam",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Depression Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Developmental and Behavioral Screening Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "DHEA Sulfate Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Diabetes Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Diabetic Foot Exam",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Doppler Ultrasound",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Down Syndrome Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Drug Testing",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Drug Use Screening Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Dysphagia Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Elastography",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Electrocardiogram",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Electrolyte Panel",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Electromyography (EMG) and Nerve Conduction Studies",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Epithelial Cells in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Erythrocyte Sedimentation Rate (ESR)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Esophageal pH Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Estrogen Levels Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Estrogen Receptor, Progesterone Receptor Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Fall Risk Assessment",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Fasting for a Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Fecal Occult Blood Test (FOBT)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ferritin Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Fetal Alcohol Spectrum Disorders (FASD) Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Flu (Influenza) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Fluoroscopy",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Follicle-Stimulating Hormone (FSH) Levels Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Food Allergy Testing",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Free Light Chains",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Fungal Culture Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "G6PD Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Galactosemia Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Gamma-glutamyl Transferase (GGT) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Gastric Emptying Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Glaucoma Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Globulin Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Glomerular Filtration Rate (GFR) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Glucagon Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Glucose in Urine Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Fasting",
+      "Postprandial",
+      "Random"
+    ]
+  },
+  {
+    "name": "Gonorrhea Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Gram Stain",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Growth Hormone Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Haptoglobin (HP) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hearing Tests for Adults",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hearing Tests for Children",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Heart Disease Risk Assessment",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Heavy Metal Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Helicobacter pylori (H. pylori) Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hematocrit Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hemoglobin A1C (HbA1c) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hemoglobin Electrophoresis",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hemoglobin Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hepatitis Testing",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "HER2 Tumor Marker Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Herpes (HSV) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "HIV Screening Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "HIV Viral Load",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Homocysteine Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Human Papillomavirus (HPV) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Hysteroscopy",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "IGF-1 (Insulin-like Growth Factor 1) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Immunoglobulins Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Insulin in Blood",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Intravenous Pyelogram (IVP)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Iron Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Karyotype Genetic Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ketones in Blood",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ketones in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Kidney Stone Analysis",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lactate Dehydrogenase (LDH) Isoenzymes Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lactate Dehydrogenase (LDH) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lactate Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lactose Tolerance Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Laparoscopy",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Legionella Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lipase Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lipoprotein (a) Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Liver Function Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lung Cancer Genetic Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lung Function Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Luteinizing Hormone (LH) Levels Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Lyme Disease Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Magnesium Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Malaria Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "MCV (Mean Corpuscular Volume)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Measles and Mumps Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Measuring Blood Pressure",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Meningococcal Disease Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Mental Health Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Methylmalonic Acid (MMA) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Microalbumin Creatinine Ratio",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Mononucleosis (Mono) Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "MPV Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "MRSA Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "MTHFR Gene Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Mucus in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Myasthenia Gravis Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Myelography",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Nasal Swab",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Natriuretic Peptide Tests (BNP, NT-proBNP)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Neurological Exam",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Nitrites in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Nonstress Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Obesity Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Obsessive Compulsive Disorder (OCD) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Opioid Testing",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Osmolality Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ova and Parasite Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Panic Disorder Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Pap Smear",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Parainfluenza Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Parathyroid Hormone (PTH) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Partial Thromboplastin Time (PTT) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "PCR Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "PDL1 (Immunotherapy) Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "PET Scan",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Pharmacogenetic Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Phenylketonuria (PKU) Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Phosphate in Blood",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Phosphate in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Platelet Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Pleural Fluid Analysis",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Pneumococcal Disease Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Porphyrin Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Postpartum Depression Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Potassium Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Prealbumin Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Pregnancy Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Prenatal Cell-Free DNA Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Prenatal Panel",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Procalcitonin Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Progesterone Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Prolactin Levels",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Prostate-Specific Antigen (PSA) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Protein C and Protein S Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Protein Electrophoresis by Immunofixation Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Protein in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Prothrombin Time Test and INR (PT/INR)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "PTEN Genetic Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Pulse Oximetry",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Rapid Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Rash Evaluation",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "RDW (Red Cell Distribution Width)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Red Blood Cell (RBC) Count",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Red Blood Cell (RBC) Indices",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Red Blood Cell Antibody Screen",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Renin Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Respiratory Pathogens Panel",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Respiratory Syncytial Virus (RSV) Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Reticulocyte Count",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Rheumatoid Factor (RF) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Salicylates Level",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Semen Analysis",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Sentinel Lymph Node Biopsy",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Sexually Transmitted Infection (STI) Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "SHBG Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Skin Biopsy",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Skin Cancer Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Sleep Study",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Smooth Muscle Antibody (SMA) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Sodium Blood Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Sputum Culture",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Stool Elastase",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Strep A Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Strep B Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Stress Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Suicide Risk Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Sweat Test for Cystic Fibrosis",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Synovial Fluid Analysis",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Syphilis Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Testosterone Levels Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Therapeutic Drug Monitoring",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Thyroglobulin",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Thyroid Antibodies",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Thyroxine (T4) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Total Protein and Albumin/Globulin (A/G) Ratio",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "TP53 Genetic Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Trichomoniasis Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Tricyclic Antidepressant (TCA) Screen",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Triglycerides Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Triiodothyronine (T3) Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Troponin Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "TSH (Thyroid-stimulating hormone) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Tuberculosis Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Tumor Marker Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ultrasound",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Uric Acid Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Urobilinogen in Urine",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "V/Q Scan",
+    "category": "Imaging",
+    "subcategories": [
+      "Anterior",
+      "Posterior",
+      "Lateral",
+      "Oblique",
+      "AP view",
+      "PA view",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "name": "Videonystagmography (VNG)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Vision Screening",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Vitamin B Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Vitamin D Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Vitamin E (Tocopherol) Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "White Blood Cell (WBC) in Stool",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "White Blood Count (WBC)",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Whooping Cough Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Xylose Testing",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Yeast Infection Tests",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Zika Virus Test",
+    "category": "Laboratory",
+    "subcategories": [
+      "Standard"
+    ]
+  }
+]

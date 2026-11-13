@@ -1,0 +1,727 @@
+[
+  {
+    "name": "Degree",
+    "description": "BAMS MD",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Date",
+    "description": "15/08/2026",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Address",
+    "description": "Wardha",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Shotha",
+    "description": "Swelling or inflammation in the body.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Raga",
+    "description": "Redness of the skin or affected area.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Ushnata",
+    "description": "Localized or general rise in body temperature.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Jwara",
+    "description": "Fever condition",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Shoola",
+    "description": "Piercing or sharp pain.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Daha",
+    "description": "Burning sensation.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Toda",
+    "description": "Pricking or bursting pain.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Spandana",
+    "description": "Throbbing or vibrating sensation",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Romaharsha",
+    "description": "Goosebumps or hair standing on end.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Stambha",
+    "description": "Stiffness in the body parts or joints.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Arochaka",
+    "description": "Loss of taste or aversion to food.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Agnimandya",
+    "description": "Weak digestion causing heavy feelings after eating.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Amlapitta",
+    "description": "Sour belching, acid reflux, and a burning chest sensation (Amlapitta).",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Adhmana",
+    "description": "Abdominal bloating, distension, and trapped gas (Vata imbalance).",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Vibandha",
+    "description": "Constipation or irregular bowel movements.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Vata-dominant Jwara",
+    "description": "Chills, body tremors, dry skin, severe piercing pain, and irregular",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Pitta-dominant Jwara",
+    "description": "High fever, intense burning sensations, extreme thirst, dizziness, and",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Kapha-dominant Jwara",
+    "description": "Heavy body feeling, nausea, excessive sleepiness, thick mucus, and a",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Ubhayamaargi",
+    "description": "Bleeding from both upper and lower tracts simultaneously",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Vata-dominated",
+    "description": "Blood appears thin, frothy, blackish-red, or grayish (aruna/syava)",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Pitta-dominated",
+    "description": "Blood appears dark, pink-red like a patala flower, smoky, or resembling cow",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Kapha-dominated",
+    "description": "Blood is dense, pale (pandu), unctuous, slimy, and thick",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Nakhabheda",
+    "description": "Cracking of nails",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vipadika",
+    "description": "Cracking of soles",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Pada shula",
+    "description": "Pain in foot",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Pada bhramsha",
+    "description": "Foot drop",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Pada suptata",
+    "description": "Numbness in feet",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vata khuddata",
+    "description": "Pain in ankle region",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Gulphagraha",
+    "description": "Stiffness in ankle region",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Pindikodveshtana",
+    "description": "Cramps in calf muscles",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Gridhrasi",
+    "description": "Sciatica",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Janubheda",
+    "description": "Tearing pain in knee",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Janu Vishlesha",
+    "description": "Dislocation in knee joint",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Urustambha",
+    "description": "Stiffness in thigh",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Urusada",
+    "description": "Loss of movement in thigh",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Pangulya",
+    "description": "Paraplegia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Guda bhrama",
+    "description": "Rectum prolapse",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Gudarti",
+    "description": "Pain in anus",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vrushana Kshepa",
+    "description": "Pain in scroatum",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Shephastambha",
+    "description": "stiffness in penis",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vankshananaha",
+    "description": "sprain in groin",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Shronibheda",
+    "description": "Pain in pelvis girdle",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vid bheda",
+    "description": "Diarrhoea",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Udavarta",
+    "description": "reverse direction of vata",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Khanjatva",
+    "description": "Limping",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Kubjatva",
+    "description": "Kyphosis",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vamanatva",
+    "description": "Dwarfism",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Trikgraha",
+    "description": "Stiffness in sacral region",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Prusthagraha",
+    "description": "Stiffness in back",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Parshvavamarda",
+    "description": "Compression in sides",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Udaravesta",
+    "description": "Twisting pain in abdomen",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Hrinmoha",
+    "description": "Cardiac dysfunction",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Hriddrava",
+    "description": "Tachycardia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vaksha uddharsa",
+    "description": "Rubbing pain in chest",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vaksha uparodha",
+    "description": "Constriction in chest",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vaksha toda",
+    "description": "Pricking pain in chest",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Bahu shosha",
+    "description": "Wasting of arm",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Grivastambha",
+    "description": "Stiffness in neck",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Manyastambha",
+    "description": "Torticollis",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Kanthoddhvamsa",
+    "description": "Hoarseness of voice",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Hanubheda",
+    "description": "Cracking pain in jaw",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Oshthabheda",
+    "description": "Cracking pain in lips",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Aksibheda",
+    "description": "Cracking pain in eyes",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Dantabheda",
+    "description": "Cracking pain in teeth",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Danta Shaithilya",
+    "description": "Loose teeth",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Mookatva",
+    "description": "Aphasia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vaksanga",
+    "description": "Stammering speech",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Kashayasyata",
+    "description": "Astringent taste in mouth",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Mukhashosha",
+    "description": "Dryness in mouth",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Arasajnata",
+    "description": "Loss of taste sensation",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Ghrana-nasha",
+    "description": "Loss of smell sensation",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Karnashoola",
+    "description": "Ear ache",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Ashabdashravana",
+    "description": "Tinnitus",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Ucchaishruti",
+    "description": "Hard of hearing",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Badhirya",
+    "description": "Deafness",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vartmastambha",
+    "description": "Stiffness in eyelids",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vartma sankocha",
+    "description": "Entropion",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Timira",
+    "description": "Loss of vision",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Akshishula",
+    "description": "Pain in eyes",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Akshivyudasa",
+    "description": "Squint eye",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Bhruvyudasa",
+    "description": "Twisting in eye brows",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Shankhabheda",
+    "description": "Cracking pain in temporal region of head",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Lalata bheda",
+    "description": "Cracking pain in frontal region of head",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Shiro ruk",
+    "description": "Headache",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Keshabhoomisphutana",
+    "description": "Cracking of scalp",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Ardita",
+    "description": "Facial paralysis",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Ekanga roga",
+    "description": "Monoplegia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Sarvanga roga",
+    "description": "Quadriplegia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Pakshavadha",
+    "description": "Hemiplegia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Akshepaka",
+    "description": "Clonic convulsions",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Dandaka",
+    "description": "Tonic convulsions",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Tama",
+    "description": "Feeling of darkness in front of eye",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Bhrama",
+    "description": "Giddiness",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vepathu",
+    "description": "Tremor",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Jrumbha",
+    "description": "Yawning",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Hikka",
+    "description": "Hiccup",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Vishada",
+    "description": "Asthenia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Atipralapa",
+    "description": "Excessive delirium",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Raukshya",
+    "description": "Roughness",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Parushya",
+    "description": "Coarseness",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Syavarunavabhasata",
+    "description": "Black reddish appearance",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Asvapna",
+    "description": "Insomnia",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Tripti",
+    "description": "Early or lack of appetite/satisfaction feeling",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Tandra",
+    "description": "Drowsiness",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Nidradhikya",
+    "description": "Excessive sleep",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Staimitya",
+    "description": "Feeling of being covered with a wet cloth",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Guru Gatrata",
+    "description": "Heaviness of the body",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Alasya",
+    "description": "Laziness",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Mukha Madhurya",
+    "description": "Sweet taste in the mouth",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Mukha Srava",
+    "description": "Excessive salivation",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Sleshma Udgirana",
+    "description": "Excessive expectoration of phlegm/mucus",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Mala Adhikya",
+    "description": "Excessive formation of waste/stool",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Balasaka",
+    "description": "Mild fever or weakness/loss of strength",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Apakti",
+    "description": "Indigestion",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Hridaya Upalepa",
+    "description": "Feeling of a coating/slime over the heart region",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Kantha Upalepa",
+    "description": "Feeling of obstruction or coating in the throat",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Dhamani Praticaya",
+    "description": "Stiffness or heaviness in blood vessels/arteries",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Galaganda",
+    "description": "Goiter or neck swelling",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Atisthulata",
+    "description": "Extreme obesity",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Mandagni",
+    "description": "Weak digestive fire",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Udaarda",
+    "description": "Hives or skin eruptions",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Shveta Avabhasata",
+    "description": "Paleness or white discoloration of the skin [1]",
+    "category": "Lakshana"
+  },
+  {
+    "name": "PA",
+    "description": "Posterior-Anterior",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "AP",
+    "description": "Anterior-Posterior",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Towne s View",
+    "description": "AP Axial",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Caldwell s View",
+    "description": "PA Axial",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Waters  View",
+    "description": "Parietomental",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Submentovertex",
+    "description": "SMV",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Open-Mouth Odontoid",
+    "description": "AP Open-Mouth",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Oblique Views",
+    "description": "Right and Left",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Swimmer s View",
+    "description": "Twining View",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Anteroposterior",
+    "description": "AP",
+    "category": "Vata nanatmaja"
+  },
+  {
+    "name": "Security is foundational",
+    "description": "clinic data must be isolated at the database/rules level, not merely hidden in the interface.",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Forms",
+    "description": "manage reusable clinical forms based on agreed requirements",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Receptionists",
+    "description": "staff accounts, clinic association, roles and permissions",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Reports",
+    "description": "clinic-level patient, visit and billing reports",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Settings",
+    "description": "clinic preferences, language, theme and printing configuration",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Clinic data isolation",
+    "description": "Clinic A must never access Clinic B's patients, prescriptions, medicines, tests, invoices or other private",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Prescription authority",
+    "description": "The two original prescription reference images remain the source of truth for the prescription's",
+    "category": "Lakshana"
+  },
+  {
+    "name": "AI boundaries",
+    "description": "Voice and AI features may help transcribe, draft and format complaints. The doctor must review and accept",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Record integrity",
+    "description": "Fields excluded from a printed prescription must still remain in the saved record. Blank fields should be",
+    "category": "Lakshana"
+  },
+  {
+    "name": "Reliable identifiers",
+    "description": "Clinic and patient ID allocation must prevent duplicates, including when multiple users create records",
+    "category": "Lakshana"
+  }
+]

@@ -6,10 +6,23 @@ service cloud.firestore {
       return request.auth != null;
     }
 
+    function memberPath(clinicId) {
+      return /databases/$(database)/documents/clinics/$(clinicId)/members/$(request.auth.uid);
+    }
+
     function isActiveClinicMember(clinicId) {
       return signedIn()
-        && exists(/databases/$(database)/documents/clinics/$(clinicId)/members/$(request.auth.uid))
-        && get(/databases/$(database)/documents/clinics/$(clinicId)/members/$(request.auth.uid)).data.status == "active";
+        && exists(memberPath(clinicId))
+        && get(memberPath(clinicId)).data.status == "active";
+    }
+
+    function isDoctor(clinicId) {
+      return isActiveClinicMember(clinicId)
+        && get(memberPath(clinicId)).data.role == "doctor";
+    }
+
+    function belongsToClinic(clinicId) {
+      return request.resource.data.clinicId == clinicId;
     }
 
     match /users/{userId} {
@@ -17,13 +30,70 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    match /clinicCodes/{code} {
+      allow read, write: if false;
+    }
+
     match /clinics/{clinicId} {
       allow read: if isActiveClinicMember(clinicId);
       allow write: if false;
 
-      match /{document=**} {
+      match /members/{uid} {
         allow read: if isActiveClinicMember(clinicId);
         allow write: if false;
+      }
+
+      match /counters/{counterId} {
+        allow read, write: if false;
+      }
+
+      match /patients/{patientId} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow create, update: if isActiveClinicMember(clinicId)
+          && belongsToClinic(clinicId);
+        allow delete: if isDoctor(clinicId);
+      }
+
+      match /medicines/{itemId} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow create, update: if isActiveClinicMember(clinicId)
+          && belongsToClinic(clinicId);
+        allow delete: if isDoctor(clinicId);
+      }
+
+      match /tests/{itemId} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow create, update: if isActiveClinicMember(clinicId)
+          && belongsToClinic(clinicId);
+        allow delete: if isDoctor(clinicId);
+      }
+
+      match /prescriptions/{itemId} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow create, update: if isActiveClinicMember(clinicId)
+          && belongsToClinic(clinicId);
+        allow delete: if isDoctor(clinicId);
+      }
+
+      match /bills/{itemId} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow create, update: if isActiveClinicMember(clinicId)
+          && belongsToClinic(clinicId);
+        allow delete: if isDoctor(clinicId);
+      }
+
+      match /visits/{itemId} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow create, update: if isActiveClinicMember(clinicId)
+          && belongsToClinic(clinicId);
+        allow delete: if isDoctor(clinicId);
+      }
+
+      match /attendance/{itemId} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow create, update: if isDoctor(clinicId)
+          && belongsToClinic(clinicId);
+        allow delete: if isDoctor(clinicId);
       }
     }
 

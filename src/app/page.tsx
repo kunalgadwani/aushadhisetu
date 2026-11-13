@@ -9,10 +9,13 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { FirebaseError } from "firebase/app";
-import { auth } from "@/lib/firebase";
+import { doc, getDoc } from "firebase/firestore";
+import { httpsCallable } from "firebase/functions";
+import { auth, db, functions } from "@/lib/firebase";
 import { useRouter } from "next/navigation";
 
 type AuthMode = "login" | "register";
+type AccountRole = "doctor" | "receptionist";
 
 export default function Home() {
   const router = useRouter();
@@ -26,6 +29,8 @@ export default function Home() {
   const [accountCreated, setAccountCreated] = useState(false);
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState(false);
+  const [accountRole, setAccountRole] = useState<AccountRole>("doctor");
+  const [clinicCode, setClinicCode] = useState("");
 
   const resetForm = (newMode: AuthMode) => {
     setMode(newMode);
@@ -74,6 +79,10 @@ export default function Home() {
     if (mode === "register") {
       if (!name.trim()) {
         setMessage("Please enter your full name.");
+        return;
+      }
+      if (accountRole === "receptionist" && !clinicCode.trim()) {
+        setMessage("Enter the clinic ID provided by the doctor.");
         return;
       }
 

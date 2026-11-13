@@ -1,0 +1,2708 @@
+[
+  {
+    "name": "Aamalakaasavam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 245.0
+  },
+  {
+    "name": "Aaragwadhaadiaasavam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 155.0
+  },
+  {
+    "name": "Abhayaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 130.0
+  },
+  {
+    "name": "Amrutaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 140.0
+  },
+  {
+    "name": "Ashokaaritshtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 135.0
+  },
+  {
+    "name": "Ashwagandhaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 220.0
+  },
+  {
+    "name": "Aravindasavam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 155.0
+  },
+  {
+    "name": "Ayaskriti",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 165.0
+  },
+  {
+    "name": "Balaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 145.0
+  },
+  {
+    "name": "Chandanaasavam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 130.0
+  },
+  {
+    "name": "Chitrakaasavam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 185.0
+  },
+  {
+    "name": "Dantiarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 130.0
+  },
+  {
+    "name": "Dashamoolaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 165.0
+  },
+  {
+    "name": "Dashamoolajeerakaadiarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 190.0
+  },
+  {
+    "name": "Dhanuantaraarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 175.0
+  },
+  {
+    "name": "Draakshaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 175.0
+  },
+  {
+    "name": "Duraalabhaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 170.0
+  },
+  {
+    "name": "Jeerakaarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 190.0
+  },
+  {
+    "name": "Kanakaasavam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 140.0
+  },
+  {
+    "name": "Khadiraarishtam",
+    "category": "Asavas & Arishtas",
+    "unit": "450 ML",
+    "price": 185.0
+  },
+  {
+    "name": "Kokilaaksharasam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 175.0
+  },
+  {
+    "name": "Kumaariaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 165.0
+  },
+  {
+    "name": "Kutajaarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 150.0
+  },
+  {
+    "name": "Lakshmanaarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 155.0
+  },
+  {
+    "name": "Lodhraasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 180.0
+  },
+  {
+    "name": "Lohaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 155.0
+  },
+  {
+    "name": "Madhookaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 235.0
+  },
+  {
+    "name": "Moolakaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 240.0
+  },
+  {
+    "name": "Mustaarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 145.0
+  },
+  {
+    "name": "Nimbaamrutaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 185.0
+  },
+  {
+    "name": "Paarthaarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 155.0
+  },
+  {
+    "name": "Patolaarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 165.0
+  },
+  {
+    "name": "Pippaliaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 140.0
+  },
+  {
+    "name": "Pooteekaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 150.0
+  },
+  {
+    "name": "Pooteekaranjaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 200.0
+  },
+  {
+    "name": "Punarnavaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 140.0
+  },
+  {
+    "name": "Roheetakaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 125.0
+  },
+  {
+    "name": "Saaraswataarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "100 ML",
+    "price": 375.0
+  },
+  {
+    "name": "Saptachchadarasam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "200 ml",
+    "price": 120.0
+  },
+  {
+    "name": "Shaaribaadiaasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 165.0
+  },
+  {
+    "name": "Sudarshanaarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 190.0
+  },
+  {
+    "name": "Usheeraasavam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 170.0
+  },
+  {
+    "name": "Vaashaarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 200.0
+  },
+  {
+    "name": "Varanaadiarishtam",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "450 ML",
+    "price": 160.0
+  },
+  {
+    "name": "Abra Bhasmam",
+    "category": "Bhasmas",
+    "unit": "100 mg",
+    "price": 180.0
+  },
+  {
+    "name": "Annabhedi Sindooram",
+    "category": "Bhasmas",
+    "unit": "200 mg",
+    "price": 180.0
+  },
+  {
+    "name": "Gandhaka Rasayanam",
+    "category": "Bhasmas",
+    "unit": "250 mg",
+    "price": 180.0
+  },
+  {
+    "name": "Loha Bhasmam",
+    "category": "Bhasmas",
+    "unit": "250 mg",
+    "price": 200.0
+  },
+  {
+    "name": "Pravala Bhasmam",
+    "category": "Bhasmas",
+    "unit": "100 mg",
+    "price": 180.0
+  },
+  {
+    "name": "Rasa Sindooram",
+    "category": "Bhasmas",
+    "unit": "50 mg",
+    "price": 480.0
+  },
+  {
+    "name": "Sanku Bhasmam",
+    "category": "Bhasmas",
+    "unit": "200 mg",
+    "price": 180.0
+  },
+  {
+    "name": "Hreeberakshaaram",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "50 g",
+    "price": 220.0
+  },
+  {
+    "name": "Ilaneer Kuzhampu",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "5 g",
+    "price": 55.0
+  },
+  {
+    "name": "Indraluptamashi",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "10 g",
+    "price": 125.0
+  },
+  {
+    "name": "Kaliaanakshaaram",
+    "category": "Ksharas & Rasakriyas",
+    "unit": "50 g",
+    "price": 230.0
+  },
+  {
+    "name": "Aparajithachoornam",
+    "category": "Powders",
+    "unit": "50g",
+    "price": 95.0
+  },
+  {
+    "name": "Ashtachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 100.0
+  },
+  {
+    "name": "Ashwagandhaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 110.0
+  },
+  {
+    "name": "Avalgujabeejaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 110.0
+  },
+  {
+    "name": "Avipattichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Choornaraajan",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 100.0
+  },
+  {
+    "name": "Daadimaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 120.0
+  },
+  {
+    "name": "Daadimaashtakachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 80.0
+  },
+  {
+    "name": "Dhaatreenishaadichoornam",
+    "category": "Powders",
+    "unit": "250 g",
+    "price": 325.0
+  },
+  {
+    "name": "Dwiruttarachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 95.0
+  },
+  {
+    "name": "Elaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 130.0
+  },
+  {
+    "name": "Gokshurachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 95.0
+  },
+  {
+    "name": "Gruhadhoomaadilepachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 65.0
+  },
+  {
+    "name": "Gruhadhoomaadiudwartanachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Gulgulupanchapalachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 130.0
+  },
+  {
+    "name": "Guloochipatraadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 70.0
+  },
+  {
+    "name": "Haridraakhandam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Hinguvachaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 90.0
+  },
+  {
+    "name": "Hutabhugaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 95.0
+  },
+  {
+    "name": "Induppukaanachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 95.0
+  },
+  {
+    "name": "Jataamayaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 80.0
+  },
+  {
+    "name": "Kaalakachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 90.0
+  },
+  {
+    "name": "Kachchooraadichoornam",
+    "category": "Powders",
+    "unit": "10 g",
+    "price": 115.0
+  },
+  {
+    "name": "Karpooraadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 105.0
+  },
+  {
+    "name": "Kolakulathaadichoornam",
+    "category": "Powders",
+    "unit": "100 g",
+    "price": 100.0
+  },
+  {
+    "name": "Kottamchukkaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 60.0
+  },
+  {
+    "name": "Lodhraadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Naagaraadi Choornam",
+    "category": "Powders",
+    "unit": "50g",
+    "price": 115.0
+  },
+  {
+    "name": "Nalpamaradi Choornam",
+    "category": "Powders",
+    "unit": "50g",
+    "price": 120.0
+  },
+  {
+    "name": "Nimbaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 80.0
+  },
+  {
+    "name": "Panchakolachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 110.0
+  },
+  {
+    "name": "Pulikuzhambu",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 100.0
+  },
+  {
+    "name": "Pushiaanugachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 160.0
+  },
+  {
+    "name": "Raasnaadichoornam",
+    "category": "Powders",
+    "unit": "10 g",
+    "price": 30.0
+  },
+  {
+    "name": "Raasnaadi Choornam 1 Jar",
+    "category": "Powders",
+    "unit": "25 Nos",
+    "price": 700.0
+  },
+  {
+    "name": "Rajaniaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 90.0
+  },
+  {
+    "name": "Raktachandanachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 90.0
+  },
+  {
+    "name": "Sarasijamakarandaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 100.0
+  },
+  {
+    "name": "Saaraswata choornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 90.0
+  },
+  {
+    "name": "Shaddaranachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 190.0
+  },
+  {
+    "name": "Shatahwaadi Choornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 110.0
+  },
+  {
+    "name": "Sukhavirechanachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 135.0
+  },
+  {
+    "name": "Dantadhaavanachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 80.0
+  },
+  {
+    "name": "SNA-Daahashamani",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 55.0
+  },
+  {
+    "name": "Mukhakaantichoornam",
+    "category": "Powders",
+    "unit": "40 g",
+    "price": 200.0
+  },
+  {
+    "name": "Taaleesapatraadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Taaleesapatrasitaavatakam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 65.0
+  },
+  {
+    "name": "Triphalaa choornam (Varaa choornam)",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 80.0
+  },
+  {
+    "name": "Triphalaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 80.0
+  },
+  {
+    "name": "Twagelaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 95.0
+  },
+  {
+    "name": "Upanahachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 60.0
+  },
+  {
+    "name": "Vidaariaadi Choornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Vaishwaanarachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Vilangaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 120.0
+  },
+  {
+    "name": "Vilangatandulaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 95.0
+  },
+  {
+    "name": "Vioshaadivatakam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 65.0
+  },
+  {
+    "name": "Yavaaniaadichoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 95.0
+  },
+  {
+    "name": "Yogaraajachoornam",
+    "category": "Powders",
+    "unit": "50 g",
+    "price": 120.0
+  },
+  {
+    "name": "Aaragwadhamahaatiktakaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 270.0
+  },
+  {
+    "name": "Amrutapraasham",
+    "category": "Ghees",
+    "unit": "200 g",
+    "price": 250.0
+  },
+  {
+    "name": "Ashoka Ghrutham",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 250.0
+  },
+  {
+    "name": "Brahmeeghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 275.0
+  },
+  {
+    "name": "Daadeemaadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 275.0
+  },
+  {
+    "name": "Dhaatriaadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 280.0
+  },
+  {
+    "name": "Doorvaaghrutam",
+    "category": "Ghees",
+    "unit": "50 g",
+    "price": 115.0
+  },
+  {
+    "name": "Gulgulutiktakaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 350.0
+  },
+  {
+    "name": "Hapushaadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 275.0
+  },
+  {
+    "name": "Indukaantaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 275.0
+  },
+  {
+    "name": "Jaatiaadighrutam",
+    "category": "Ghees",
+    "unit": "50 g",
+    "price": 110.0
+  },
+  {
+    "name": "Jeevantiaadi Ghrutam",
+    "category": "Ghees",
+    "unit": "10g",
+    "price": 95.0
+  },
+  {
+    "name": "Kaliaanakaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 280.0
+  },
+  {
+    "name": "Mahaabhootaraavaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 330.0
+  },
+  {
+    "name": "Mahaakaliaanakaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 330.0
+  },
+  {
+    "name": "Mahaaraasnaadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 265.0
+  },
+  {
+    "name": "Mahaasneham",
+    "category": "Ghees",
+    "unit": "50 g",
+    "price": 115.0
+  },
+  {
+    "name": "Mahaatiktakaghrutam",
+    "category": "Ghees",
+    "unit": "50 g",
+    "price": 120.0
+  },
+  {
+    "name": "Mahapaisachikagrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 330.0
+  },
+  {
+    "name": "Mahalpanchagaviaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 325.0
+  },
+  {
+    "name": "Mishrakasneham",
+    "category": "Ghees",
+    "unit": "50 g",
+    "price": 120.0
+  },
+  {
+    "name": "Naarasimharasaayanam",
+    "category": "Ghees",
+    "unit": "200 g",
+    "price": 180.0
+  },
+  {
+    "name": "Panchagaviaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 290.0
+  },
+  {
+    "name": "Phalasarpiss",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 310.0
+  },
+  {
+    "name": "Raasnaadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 320.0
+  },
+  {
+    "name": "Rasaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 330.0
+  },
+  {
+    "name": "Saaraswataghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 265.0
+  },
+  {
+    "name": "Shalpalaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 265.0
+  },
+  {
+    "name": "Shataavareeghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 310.0
+  },
+  {
+    "name": "Sukhaprasootighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 360.0
+  },
+  {
+    "name": "Sukumaaraghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 350.0
+  },
+  {
+    "name": "Tiktakaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 320.0
+  },
+  {
+    "name": "Traiphala ghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 270.0
+  },
+  {
+    "name": "Vajrakaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 275.0
+  },
+  {
+    "name": "Varanaadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 250.0
+  },
+  {
+    "name": "Vastiaamayaantakaghrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 500.0
+  },
+  {
+    "name": "Veerataraadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 275.0
+  },
+  {
+    "name": "Vidaariaadighrutam",
+    "category": "Ghees",
+    "unit": "150 g",
+    "price": 275.0
+  },
+  {
+    "name": "Aaragwadhaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Aaragwadhaamrutaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 190.0
+  },
+  {
+    "name": "Amrutavrishapatolaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 225.0
+  },
+  {
+    "name": "Amrutottaram",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 165.0
+  },
+  {
+    "name": "Ardhavilwam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 190.0
+  },
+  {
+    "name": "Ashtavargam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 185.0
+  },
+  {
+    "name": "Balaaguloochiaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 155.0
+  },
+  {
+    "name": "Balaajeerakaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 175.0
+  },
+  {
+    "name": "Balashataavariaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 160.0
+  },
+  {
+    "name": "Bhaarngiaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Bhadradaarvaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 185.0
+  },
+  {
+    "name": "Bruhatiaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 170.0
+  },
+  {
+    "name": "Chiruvilwam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 225.0
+  },
+  {
+    "name": "Chitrakaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 340.0
+  },
+  {
+    "name": "Dashamoolakatutrayam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 200.0
+  },
+  {
+    "name": "Dashamoolam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Dashamoolaraasnaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 230.0
+  },
+  {
+    "name": "Deepiakarasam",
+    "category": "Kashayams",
+    "unit": "100 ml",
+    "price": 110.0
+  },
+  {
+    "name": "Dhaaniaamlam",
+    "category": "Kashayams",
+    "unit": "450 ml",
+    "price": 90.0
+  },
+  {
+    "name": "Dhaanuantaram",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 215.0
+  },
+  {
+    "name": "Dhanadanayanaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Draakshaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Dusparshakaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 235.0
+  },
+  {
+    "name": "Elaakanaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 205.0
+  },
+  {
+    "name": "Gandharvahastaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 175.0
+  },
+  {
+    "name": "Garbharakshini",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 185.0
+  },
+  {
+    "name": "Gulgulutiktakam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 270.0
+  },
+  {
+    "name": "Guloochiaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 235.0
+  },
+  {
+    "name": "Indukaantam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 175.0
+  },
+  {
+    "name": "Kaalashaakaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 170.0
+  },
+  {
+    "name": "Kaidariaadi Kashayam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 200.0
+  },
+  {
+    "name": "Kanaashataahwaadi",
+    "category": "Kashayams",
+    "unit": "200ml",
+    "price": 195.0
+  },
+  {
+    "name": "Katakakhadiraadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 165.0
+  },
+  {
+    "name": "Mahaamanjishtaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 235.0
+  },
+  {
+    "name": "Mahaaraasnaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 265.0
+  },
+  {
+    "name": "Mahaatiktakam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 275.0
+  },
+  {
+    "name": "Manjishtaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 230.0
+  },
+  {
+    "name": "Mrudweekaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Musaleekhadiraadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 155.0
+  },
+  {
+    "name": "Nayopaayam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Neeleetulasiaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 265.0
+  },
+  {
+    "name": "Nimbaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 175.0
+  },
+  {
+    "name": "Nishaakatakaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Nishottamaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 185.0
+  },
+  {
+    "name": "Panchahbhadram",
+    "category": "Kashayams",
+    "unit": "200ml",
+    "price": 170.0
+  },
+  {
+    "name": "Panchakolam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 230.0
+  },
+  {
+    "name": "Panchatiktakam Kashayam",
+    "category": "Kashayams",
+    "unit": "200ml",
+    "price": 205.0
+  },
+  {
+    "name": "Pathyaakshadhaatriaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Pathyapunarnavaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Patolakaturohiniaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 270.0
+  },
+  {
+    "name": "Patolamoolaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 200.0
+  },
+  {
+    "name": "Prasaariniaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Punarnavaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 175.0
+  },
+  {
+    "name": "Raasnaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 270.0
+  },
+  {
+    "name": "Raasnaasaptakam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 175.0
+  },
+  {
+    "name": "Raasnapanchakam Kashayam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Rasonaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Sahacharaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 175.0
+  },
+  {
+    "name": "Saptasaaram",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 200.0
+  },
+  {
+    "name": "Shataavariaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 210.0
+  },
+  {
+    "name": "Shonitaamrutam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Sukumaaram",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 205.0
+  },
+  {
+    "name": "Tiktakam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Traayantiaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 235.0
+  },
+  {
+    "name": "Trijaatakaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 295.0
+  },
+  {
+    "name": "Trinapanchamoolam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 200.0
+  },
+  {
+    "name": "Vaashaaguloochiaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 170.0
+  },
+  {
+    "name": "Vajrakam",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 170.0
+  },
+  {
+    "name": "Valiyaraasnaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Varaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 160.0
+  },
+  {
+    "name": "Varanaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 160.0
+  },
+  {
+    "name": "Viaaghriaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Vidaariaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 185.0
+  },
+  {
+    "name": "Vilangakrishnaadi",
+    "category": "Kashayams",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Agastiarasaayanam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 175.0
+  },
+  {
+    "name": "Ajamaamsarasaayanam",
+    "category": "Tablets",
+    "unit": "300 g",
+    "price": 290.0
+  },
+  {
+    "name": "Ashwagandhaadileham",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 190.0
+  },
+  {
+    "name": "Baahushaalagulam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 190.0
+  },
+  {
+    "name": "Braahmarasaayanam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 185.0
+  },
+  {
+    "name": "Chiavanapraasham",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 150.0
+  },
+  {
+    "name": "Dantheehareethaki",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 310.0
+  },
+  {
+    "name": "Dashamoolahareetaki",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 180.0
+  },
+  {
+    "name": "Dashamoolarasaayanam",
+    "category": "Tablets",
+    "unit": "50 g",
+    "price": 85.0
+  },
+  {
+    "name": "Draakshaadileham",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 280.0
+  },
+  {
+    "name": "Gomootrahareetaki",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 250.0
+  },
+  {
+    "name": "Hrudiavirechanam",
+    "category": "Tablets",
+    "unit": "100 g",
+    "price": 95.0
+  },
+  {
+    "name": "Kaliaanagulam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 170.0
+  },
+  {
+    "name": "Kooshmaandarasaayanam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 200.0
+  },
+  {
+    "name": "Kutajatwagaadileham",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 210.0
+  },
+  {
+    "name": "Maanibhadram",
+    "category": "Tablets",
+    "unit": "100 g",
+    "price": 90.0
+  },
+  {
+    "name": "Maarkavarasaayanam",
+    "category": "Tablets",
+    "unit": "200 g",
+    "price": 275.0
+  },
+  {
+    "name": "Madhusnuheerasaayanam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 260.0
+  },
+  {
+    "name": "Mrudweekaadileham",
+    "category": "Tablets",
+    "unit": "100 g",
+    "price": 100.0
+  },
+  {
+    "name": "Panchajeerakagudam",
+    "category": "Tablets",
+    "unit": "450 g",
+    "price": 450.0
+  },
+  {
+    "name": "Rituranjini Leham",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 385.0
+  },
+  {
+    "name": "Shataavareegulam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 215.0
+  },
+  {
+    "name": "Shataavareevaajeekaranam",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 270.0
+  },
+  {
+    "name": "Shwaaseejeevanam",
+    "category": "Tablets",
+    "unit": "100 g",
+    "price": 145.0
+  },
+  {
+    "name": "Sooranaadileham",
+    "category": "Tablets",
+    "unit": "100 g",
+    "price": 110.0
+  },
+  {
+    "name": "Sukumaaraleham",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 300.0
+  },
+  {
+    "name": "Taaleesapatraadileham",
+    "category": "Tablets",
+    "unit": "50 g",
+    "price": 70.0
+  },
+  {
+    "name": "Taamboolaleham",
+    "category": "Tablets",
+    "unit": "50 g",
+    "price": 80.0
+  },
+  {
+    "name": "Tenginpookulaadigudam",
+    "category": "Tablets",
+    "unit": "450 g",
+    "price": 340.0
+  },
+  {
+    "name": "Truvrut Leham",
+    "category": "Tablets",
+    "unit": "100g",
+    "price": 95.0
+  },
+  {
+    "name": "Vidariaadi leham",
+    "category": "Tablets",
+    "unit": "250 g",
+    "price": 200.0
+  },
+  {
+    "name": "Vilwaadileham",
+    "category": "Tablets",
+    "unit": "100 g",
+    "price": 95.0
+  },
+  {
+    "name": "Aarukaalaadi Oil",
+    "category": "Oils",
+    "unit": "200 ml",
+    "price": 205.0
+  },
+  {
+    "name": "Amrutaadi Oil",
+    "category": "Oils",
+    "unit": "200 ml",
+    "price": 215.0
+  },
+  {
+    "name": "Amrutakiranam Oil",
+    "category": "Oils",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Anutailam",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 105.0
+  },
+  {
+    "name": "Arimedaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 225.0
+  },
+  {
+    "name": "Arimedastailam",
+    "category": "Tailam",
+    "unit": "30 ml",
+    "price": 70.0
+  },
+  {
+    "name": "Asanailaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 290.0
+  },
+  {
+    "name": "Asanailaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 270.0
+  },
+  {
+    "name": "Asanamanjishtaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 255.0
+  },
+  {
+    "name": "Asanavilwaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 230.0
+  },
+  {
+    "name": "Asanavilwaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 200.0
+  },
+  {
+    "name": "Ashtapatraadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 250.0
+  },
+  {
+    "name": "Balaatailam",
+    "category": "Tailam",
+    "unit": "10ml",
+    "price": 125.0
+  },
+  {
+    "name": "Balaadhaatriaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 305.0
+  },
+  {
+    "name": "Balaaguloochiaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 230.0
+  },
+  {
+    "name": "Balaaguloochiaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 215.0
+  },
+  {
+    "name": "Balaamrutaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Balaahataadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 250.0
+  },
+  {
+    "name": "Balaahataadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Balaashwagandhaadi Oil",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 140.0
+  },
+  {
+    "name": "Balaashwagandhaadi Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 270.0
+  },
+  {
+    "name": "Bhrungaamalakaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 270.0
+  },
+  {
+    "name": "Bhujagalataadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 250.0
+  },
+  {
+    "name": "Bhujagalataadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 215.0
+  },
+  {
+    "name": "Chemparatiaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 150.0
+  },
+  {
+    "name": "Chinchaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Chinchaadi Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Dadrunaashinitailam",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 260.0
+  },
+  {
+    "name": "Dashamoolatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Dashapushpatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 420.0
+  },
+  {
+    "name": "Devadaarutailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 260.0
+  },
+  {
+    "name": "Devadaarvaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 300.0
+  },
+  {
+    "name": "Dhaanuantaram Tailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 265.0
+  },
+  {
+    "name": "Dhaanuantaram Mezhupakam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Dhaanuantaram Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Dhaanuantaram 3 times",
+    "category": "Tailam",
+    "unit": "30 ml",
+    "price": 70.0
+  },
+  {
+    "name": "Dhaanuantaram 7 times",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 60.0
+  },
+  {
+    "name": "Dhurdhoorapatraadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 160.0
+  },
+  {
+    "name": "Dineshailaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Dineshailaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 245.0
+  },
+  {
+    "name": "Dineshavaliaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Dineshavaliaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Elaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 170.0
+  },
+  {
+    "name": "Elaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 265.0
+  },
+  {
+    "name": "Erandasheegruaadi Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 170.0
+  },
+  {
+    "name": "Earandasukumaram",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 230.0
+  },
+  {
+    "name": "Gandharvahastatailam",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 150.0
+  },
+  {
+    "name": "Hingutrigunam",
+    "category": "Tailam",
+    "unit": "100 g",
+    "price": 220.0
+  },
+  {
+    "name": "Jaatiaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Jeevantiaadiyamakam",
+    "category": "Tailam",
+    "unit": "50 g",
+    "price": 110.0
+  },
+  {
+    "name": "Kaaraskaraadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 270.0
+  },
+  {
+    "name": "Kaarpaasaasthiaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 215.0
+  },
+  {
+    "name": "Kaarpaasaasthiaadi Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 210.0
+  },
+  {
+    "name": "Kanjuniaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 250.0
+  },
+  {
+    "name": "Kanjuniaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Karpooraadi Oil",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 120.0
+  },
+  {
+    "name": "Ketakeemoolaadi Tailam",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 240.0
+  },
+  {
+    "name": "Ketakeemoolaadi Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 250.0
+  },
+  {
+    "name": "Khajithapindatailam",
+    "category": "Tailam",
+    "unit": "100g",
+    "price": 220.0
+  },
+  {
+    "name": "Kottamchukkaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Kottamchukkaadi Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 225.0
+  },
+  {
+    "name": "Ksheerabala 3 times",
+    "category": "Tailam",
+    "unit": "30 ml",
+    "price": 70.0
+  },
+  {
+    "name": "Ksheerabala 7 times",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 60.0
+  },
+  {
+    "name": "Ksheerabala 14 times",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 70.0
+  },
+  {
+    "name": "Ksheerabala 21 times",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 80.0
+  },
+  {
+    "name": "Ksheerabala 101 times",
+    "category": "Tailam",
+    "unit": "10 g",
+    "price": 170.0
+  },
+  {
+    "name": "Ksheerabalaatailam",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 130.0
+  },
+  {
+    "name": "Kumkumaaditailam",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 625.0
+  },
+  {
+    "name": "Kundalakanthi Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 220.0
+  },
+  {
+    "name": "Laakshaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Laakshaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Laseekaamrutam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 390.0
+  },
+  {
+    "name": "Maalatiaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 150.0
+  },
+  {
+    "name": "Maashatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 230.0
+  },
+  {
+    "name": "Madhukaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 335.0
+  },
+  {
+    "name": "Madhuyashtiaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 290.0
+  },
+  {
+    "name": "Madhuyashtiaadi Mezhupakam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 310.0
+  },
+  {
+    "name": "Mahaabalaatailam",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 110.0
+  },
+  {
+    "name": "Mahaamaashatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 345.0
+  },
+  {
+    "name": "Mahanarayanatailam",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 170.0
+  },
+  {
+    "name": "Marichaaditailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 360.0
+  },
+  {
+    "name": "Murivenna",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 130.0
+  },
+  {
+    "name": "Mustaaditailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 275.0
+  },
+  {
+    "name": "Naalpaamaraadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 150.0
+  },
+  {
+    "name": "Naalpaamaraadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 235.0
+  },
+  {
+    "name": "Naaraayanatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 350.0
+  },
+  {
+    "name": "Neeleebhrungaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 190.0
+  },
+  {
+    "name": "Neeleebhrungaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 310.0
+  },
+  {
+    "name": "Neelidalaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 300.0
+  },
+  {
+    "name": "Nimbaamrutaadi Castor Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 180.0
+  },
+  {
+    "name": "Nimbaamrutaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 310.0
+  },
+  {
+    "name": "Nirgundiaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Nishosheeraadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 330.0
+  },
+  {
+    "name": "Nishosheeraadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 300.0
+  },
+  {
+    "name": "Paarantiaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 330.0
+  },
+  {
+    "name": "Panchamoolaadiyamakam",
+    "category": "Tailam",
+    "unit": "100 g",
+    "price": 250.0
+  },
+  {
+    "name": "Panchasneham",
+    "category": "Tailam",
+    "unit": "200g",
+    "price": 315.0
+  },
+  {
+    "name": "Parinatakeriaaditailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 245.0
+  },
+  {
+    "name": "Patolaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 300.0
+  },
+  {
+    "name": "Pindatailam",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 120.0
+  },
+  {
+    "name": "Pippaliaadianuaasanatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 215.0
+  },
+  {
+    "name": "Prabhanjanam Tailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Prabhanjanam Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 235.0
+  },
+  {
+    "name": "Prapaundareekaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 310.0
+  },
+  {
+    "name": "Prasaarineetailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 250.0
+  },
+  {
+    "name": "Raasnaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 225.0
+  },
+  {
+    "name": "Sahacharaadi 3 times",
+    "category": "Tailam",
+    "unit": "30 ml",
+    "price": 95.0
+  },
+  {
+    "name": "Sahacharaadi 7 times",
+    "category": "Tailam",
+    "unit": "10 ml",
+    "price": 60.0
+  },
+  {
+    "name": "Sahacharaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 255.0
+  },
+  {
+    "name": "Sahacharaadi Mezhupakam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 250.0
+  },
+  {
+    "name": "Sahacharaadi Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 255.0
+  },
+  {
+    "name": "Shirovirechanam",
+    "category": "Tailam",
+    "unit": "30 ml",
+    "price": 110.0
+  },
+  {
+    "name": "Shudhabala Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 225.0
+  },
+  {
+    "name": "Shudhadoorvaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Sinduvaarairandam",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 115.0
+  },
+  {
+    "name": "Tekaraajaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Tekaraajatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Triphalaadi Coconut Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Triphalaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Tulaseetailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 240.0
+  },
+  {
+    "name": "Tungadrumaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 385.0
+  },
+  {
+    "name": "Undurutailam",
+    "category": "Tailam",
+    "unit": "50 ml",
+    "price": 310.0
+  },
+  {
+    "name": "Vaatamardanam Kuzhampu",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 230.0
+  },
+  {
+    "name": "Vachaalashunatailam",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 150.0
+  },
+  {
+    "name": "Vajrakatailam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 250.0
+  },
+  {
+    "name": "Valiya Chandanaadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 420.0
+  },
+  {
+    "name": "Vidaariaadiyamakam",
+    "category": "Tailam",
+    "unit": "100 g",
+    "price": 190.0
+  },
+  {
+    "name": "Vilwampaachottiaadi Oil",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 160.0
+  },
+  {
+    "name": "Vilwamkaaraskaraadi Oil",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 280.0
+  },
+  {
+    "name": "Chandraprabha",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 210.0
+  },
+  {
+    "name": "Chukkumtippaliaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 190.0
+  },
+  {
+    "name": "Dashaamgam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 530.0
+  },
+  {
+    "name": "Doosheevishaari",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 230.0
+  },
+  {
+    "name": "Gopeechandanaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 350.0
+  },
+  {
+    "name": "Gorochanaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 720.0
+  },
+  {
+    "name": "Grahaniantakam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 250.0
+  },
+  {
+    "name": "Hinguvachaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 230.0
+  },
+  {
+    "name": "Kanchanaragulgulu",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 420.0
+  },
+  {
+    "name": "Kaishoragulgulu",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 280.0
+  },
+  {
+    "name": "Kankayanam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 260.0
+  },
+  {
+    "name": "Kastooriaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 385.0
+  },
+  {
+    "name": "Khadiragulika",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 520.0
+  },
+  {
+    "name": "Kompanchaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 220.0
+  },
+  {
+    "name": "Kutajaphaanitam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 300.0
+  },
+  {
+    "name": "Maanasamitram",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 1325.0
+  },
+  {
+    "name": "Mandooravatakam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 275.0
+  },
+  {
+    "name": "Mukkaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 225.0
+  },
+  {
+    "name": "Navaayasam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 325.0
+  },
+  {
+    "name": "Navagulgulu",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 410.0
+  },
+  {
+    "name": "Shadhdharanam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 325.0
+  },
+  {
+    "name": "Shwaasaanandam",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 215.0
+  },
+  {
+    "name": "Sooriaprabha",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 200.0
+  },
+  {
+    "name": "Swapnasudha",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 430.0
+  },
+  {
+    "name": "Vachaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 330.0
+  },
+  {
+    "name": "Valmeekavati",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 340.0
+  },
+  {
+    "name": "Vettumaaran",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 210.0
+  },
+  {
+    "name": "Vilwaadi",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 290.0
+  },
+  {
+    "name": "Yogaraajagulgulu",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 245.0
+  },
+  {
+    "name": "Ashwagandha Tablet (500 mg)",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 180.0
+  },
+  {
+    "name": "Bhudhaatri Syrup",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 130.0
+  },
+  {
+    "name": "Brahmee Tailam",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 170.0
+  },
+  {
+    "name": "Brahmi Tablet (500 mg)",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 180.0
+  },
+  {
+    "name": "Herbal Drink",
+    "category": "Tailam",
+    "unit": "100g",
+    "price": 265.0
+  },
+  {
+    "name": "Immunotone",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 240.0
+  },
+  {
+    "name": "Laxon Capsule",
+    "category": "Tailam",
+    "unit": "10 Nos",
+    "price": 100.0
+  },
+  {
+    "name": "Laxon Syrup",
+    "category": "Tailam",
+    "unit": "50ml",
+    "price": 85.0
+  },
+  {
+    "name": "Marma Lepam",
+    "category": "Tailam",
+    "unit": "20 g",
+    "price": 90.0
+  },
+  {
+    "name": "Mehagni",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 360.0
+  },
+  {
+    "name": "Musthanol",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 130.0
+  },
+  {
+    "name": "Pachanol",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 130.0
+  },
+  {
+    "name": "Phalarasayanam",
+    "category": "Tailam",
+    "unit": "150g",
+    "price": 240.0
+  },
+  {
+    "name": "Prurinil",
+    "category": "Tailam",
+    "unit": "20 g",
+    "price": 150.0
+  },
+  {
+    "name": "Rituranjini Syrup",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 220.0
+  },
+  {
+    "name": "Sirasthoda gulika lepam",
+    "category": "Tailam",
+    "unit": "20 g",
+    "price": 100.0
+  },
+  {
+    "name": "Smooth Cough Syrup",
+    "category": "Tailam",
+    "unit": "100 ml",
+    "price": 140.0
+  },
+  {
+    "name": "Sooth Lint",
+    "category": "Tailam",
+    "unit": "30 ml",
+    "price": 140.0
+  },
+  {
+    "name": "Sooth Lint Roll",
+    "category": "Tailam",
+    "unit": "30 ml",
+    "price": 130.0
+  },
+  {
+    "name": "Sooth Roll",
+    "category": "Tailam",
+    "unit": "9ml",
+    "price": 100.0
+  },
+  {
+    "name": "Sooth Rub",
+    "category": "Tailam",
+    "unit": "20 g",
+    "price": 130.0
+  },
+  {
+    "name": "Triphala Tablet (500 mg)",
+    "category": "Tailam",
+    "unit": "50 Nos",
+    "price": 180.0
+  },
+  {
+    "name": "Weltone",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 240.0
+  },
+  {
+    "name": "Aadaarikaadi Kashayam",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 275.0
+  },
+  {
+    "name": "Balaakulathaadi Kashayam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 245.0
+  },
+  {
+    "name": "Balaasaireyakaadi Kashayam",
+    "category": "Tailam",
+    "unit": "200 ml",
+    "price": 350.0
+  },
+  {
+    "name": "Chandanaadi Kashayam",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 340.0
+  },
+  {
+    "name": "Chuvannakuzhambu",
+    "category": "Tailam",
+    "unit": "10g",
+    "price": 480.0
+  },
+  {
+    "name": "Elaajamojarasaayanam",
+    "category": "Tailam",
+    "unit": "250 g",
+    "price": 350.0
+  },
+  {
+    "name": "Gayatriaadi Kashayam",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 275.0
+  },
+  {
+    "name": "Hamsapatiaadi Kashayam",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 340.0
+  },
+  {
+    "name": "Kalyanakam Kashayam",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 310.0
+  },
+  {
+    "name": "Pathyaapaadaghrutam",
+    "category": "Tailam",
+    "unit": "150 g",
+    "price": 320.0
+  },
+  {
+    "name": "Raasnashundiaadi Kashayam",
+    "category": "Tailam",
+    "unit": "200ml",
+    "price": 295.0
+  },
+  {
+    "name": "Vaaruneetailam",
+    "category": "Tailam",
+    "unit": "100ml",
+    "price": 230.0
+  },
+  {
+    "name": "Pure Honey",
+    "category": "Tailam",
+    "unit": "50 g",
+    "price": 50.0
+  }
+]

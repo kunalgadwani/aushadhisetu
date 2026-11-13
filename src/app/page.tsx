@@ -8,17 +8,14 @@ import {
   sendPasswordResetEmail,
   updateProfile,
 } from "firebase/auth";
-import {
-  doc,
-  setDoc,
-  serverTimestamp,
-} from "firebase/firestore";
 import { FirebaseError } from "firebase/app";
-import { auth, db } from "@/lib/firebase";
+import { auth } from "@/lib/firebase";
+import { useRouter } from "next/navigation";
 
 type AuthMode = "login" | "register";
 
 export default function Home() {
+  const router = useRouter();
   const [mode, setMode] = useState<AuthMode>("login");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -26,6 +23,7 @@ export default function Home() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [accountCreated, setAccountCreated] = useState(false);
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState(false);
 
@@ -33,15 +31,21 @@ export default function Home() {
     setMode(newMode);
     setMessage("");
     setSuccess(false);
+    setAccountCreated(false);
     setPassword("");
     setConfirmPassword("");
   };
 
-  const getErrorMessage = (error: unknown) => {
+  const getErrorMessage = (
+    error: unknown,
+    action: AuthMode | "password-reset"
+  ) => {
     if (error instanceof FirebaseError) {
       switch (error.code) {
         case "auth/email-already-in-use":
-          return "This email is already registered. Please sign in.";
+          return action === "register"
+            ? "Firebase already has an account for this email. Please sign in or reset your password."
+            : "Incorrect email or password.";
         case "auth/invalid-email":
           return "Please enter a valid email address.";
         case "auth/weak-password":
@@ -65,6 +69,7 @@ export default function Home() {
     e.preventDefault();
     setMessage("");
     setSuccess(false);
+    setAccountCreated(false);
 
     if (mode === "register") {
       if (!name.trim()) {
@@ -84,45 +89,49 @@ export default function Home() {
     }
 
     setLoading(true);
+    const normalizedEmail = email.trim().toLowerCase();
 
     try {
       if (mode === "register") {
         const credential = await createUserWithEmailAndPassword(
           auth,
-          email.trim(),
+          normalizedEmail,
           password
         );
 
-        await updateProfile(credential.user, {
-          displayName: name.trim(),
-        });
-
-        await setDoc(doc(db, "users", credential.user.uid), {
-          uid: credential.user.uid,
-          name: name.trim(),
-          email: email.trim(),
-          role: "doctor",
-          createdAt: serverTimestamp(),
-          updatedAt: serverTimestamp(),
-        });
+        try {
+          await updateProfile(credential.user, {
+            displayName: name.trim(),
+          });
+        } catch (error) {
+          console.error("Could not save the account display name:", error);
+          setSuccess(false);
+          setAccountCreated(true);
+          setMessage(
+            "Your sign-in account was created, but its display name could not be saved. Continue to profile setup and enter your name there."
+          );
+          return;
+        }
 
         setSuccess(true);
         setMessage(
-          "Your doctor account has been created successfully!"
+          "Your account has been created. Continue to doctor and clinic setup."
         );
+        router.replace("/onboarding");
       } else {
         await signInWithEmailAndPassword(
           auth,
-          email.trim(),
+          normalizedEmail,
           password
         );
 
         setSuccess(true);
         setMessage("Welcome back! Authentication successful.");
+        router.replace("/dashboard");
       }
     } catch (error) {
       setSuccess(false);
-      setMessage(getErrorMessage(error));
+      setMessage(getErrorMessage(error, mode));
     } finally {
       setLoading(false);
     }
@@ -136,14 +145,15 @@ export default function Home() {
 
     setLoading(true);
     setMessage("");
+    setSuccess(false);
 
     try {
-      await sendPasswordResetEmail(auth, email.trim());
+      await sendPasswordResetEmail(auth, email.trim().toLowerCase());
       setSuccess(true);
       setMessage("Password reset link sent. Please check your email.");
     } catch (error) {
       setSuccess(false);
-      setMessage(getErrorMessage(error));
+      setMessage(getErrorMessage(error, "password-reset"));
     } finally {
       setLoading(false);
     }
@@ -382,6 +392,16 @@ export default function Home() {
               {!loading && <span>→</span>}
             </button>
           </form>
+
+          {accountCreated && (
+            <button
+              className="setup-continuation"
+              onClick={() => router.replace("/onboarding")}
+              type="button"
+            >
+              Continue to profile setup
+            </button>
+          )}
 
           <div className="auth-divider">
             <span>SECURE HEALTHCARE ACCESS</span>

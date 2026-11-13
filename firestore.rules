@@ -1,0 +1,38 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isActiveClinicMember(clinicId) {
+      return signedIn()
+        && exists(/databases/$(database)/documents/clinics/$(clinicId)/members/$(request.auth.uid))
+        && get(/databases/$(database)/documents/clinics/$(clinicId)/members/$(request.auth.uid)).data.status == "active";
+    }
+
+    match /users/{userId} {
+      allow read: if signedIn() && request.auth.uid == userId;
+      allow write: if false;
+    }
+
+    match /clinics/{clinicId} {
+      allow read: if isActiveClinicMember(clinicId);
+      allow write: if false;
+
+      match /{document=**} {
+        allow read: if isActiveClinicMember(clinicId);
+        allow write: if false;
+      }
+    }
+
+    match /systemCounters/{counterId} {
+      allow read, write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

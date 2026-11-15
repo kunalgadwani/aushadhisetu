@@ -20,7 +20,7 @@ interface AppContextValue {
   clinic: Clinic | null;
   settings: ClinicSettings | undefined;
   locale: Locale;
-  t: (typeof messages)["en"];
+  t: (typeof messages)[Locale];
   loading: boolean;
   refresh: () => Promise<void>;
   logout: () => Promise<void>;

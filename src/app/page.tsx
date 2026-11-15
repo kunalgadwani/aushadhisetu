@@ -9,9 +9,7 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { FirebaseError } from "firebase/app";
-import { doc, getDoc } from "firebase/firestore";
-import { httpsCallable } from "firebase/functions";
-import { auth, db, functions } from "@/lib/firebase";
+import { auth } from "@/lib/firebase";
 import { useRouter } from "next/navigation";
 
 type AuthMode = "login" | "register";

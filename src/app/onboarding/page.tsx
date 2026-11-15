@@ -1,12 +1,10 @@
 "use client";
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
-import { FirebaseError } from "firebase/app";
 import { onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
-import { httpsCallable } from "firebase/functions";
 import { useRouter } from "next/navigation";
-import { auth, db, functions } from "@/lib/firebase";
+import { auth, db } from "@/lib/firebase";
 
 interface DoctorProfileInput {
   name: string;
@@ -18,10 +16,17 @@ interface DoctorProfileInput {
   registrationNumber: string;
 }
 
-interface ClinicProfileResult {
-  clinicId: string;
-  clinicCode: string;
-}
+const DEFAULT_RECEPTIONIST_PERMISSIONS = {
+  patients: { view: true, add: true, edit: false },
+  tests: { view: true, add: false, edit: false },
+  medicines: { view: true, add: false, edit: false },
+  prescription: { view: true, add: false, edit: false },
+  forms: { view: true, add: true, edit: false },
+  bills: { view: true, add: true, edit: true },
+  reports: { view: false, add: false, edit: false },
+  receptionists: { view: false, add: false, edit: false },
+  settings: { view: false, add: false, edit: false },
+};
 
 const requiredProfileFields = [
   "name",
@@ -114,6 +119,19 @@ export default function OnboardingPage() {
     event.preventDefault();
     setMessage("");
 
+    const user = auth.currentUser;
+    if (!user) {
+      setMessage("Your session expired. Please sign in again.");
+      router.replace("/");
+      return;
+    }
+
+    const email = user.email;
+    if (!email) {
+      setMessage("Your account must have an email address.");
+      return;
+    }
+
     const specializationList = [
       ...new Set(
         specializations
@@ -128,56 +146,140 @@ export default function OnboardingPage() {
       return;
     }
 
+    const profile: DoctorProfileInput = {
+      name: name.trim(),
+      age: age.trim() ? Number(age) : null,
+      qualification: qualification.trim(),
+      specializations: specializationList,
+      clinicName: clinicName.trim(),
+      clinicAddress: clinicAddress.trim(),
+      registrationNumber: registrationNumber.trim(),
+    };
+
+    // Validate required fields
+    if (!profile.name || !profile.qualification || !profile.clinicName || !profile.clinicAddress || !profile.registrationNumber) {
+      setMessage("Please fill in all required fields.");
+      return;
+    }
+
+    if (profile.age !== null && (profile.age < 18 || profile.age > 100 || !Number.isInteger(profile.age))) {
+      setMessage("Age must be a whole number between 18 and 100.");
+      return;
+    }
+
     setLoading(true);
     try {
-      const completeDoctorProfile = httpsCallable<
-        DoctorProfileInput,
-        ClinicProfileResult
-      >(functions, "completeDoctorProfile");
+      const userId = user.uid;
+      const userRef = doc(db, "users", userId);
+      const counterRef = doc(db, "systemCounters", "clinicCodes");
 
-      await completeDoctorProfile({
-        name: name.trim(),
-        age: age.trim() ? Number(age) : null,
-        qualification: qualification.trim(),
-        specializations: specializationList,
-        clinicName: clinicName.trim(),
-        clinicAddress: clinicAddress.trim(),
-        registrationNumber: registrationNumber.trim(),
+      await runTransaction(db, async (transaction) => {
+        const [userSnapshot, counterSnapshot] = await Promise.all([
+          transaction.get(userRef),
+          transaction.get(counterRef),
+        ]);
+
+        const userData = userSnapshot.data();
+        if (userData?.profileComplete === true) {
+          if (
+            typeof userData.clinicId === "string" &&
+            typeof userData.clinicCode === "string"
+          ) {
+            // Already completed, just redirect
+            return;
+          }
+          throw new Error(
+            "Your existing clinic profile needs administrator assistance."
+          );
+        }
+
+        if (userData?.clinicId) {
+          throw new Error("Your account is already linked to a clinic.");
+        }
+
+        const lastClinicNumber = counterSnapshot.exists()
+          ? counterSnapshot.data()?.lastClinicNumber ?? 0
+          : 0;
+        if (
+          typeof lastClinicNumber !== "number" ||
+          !Number.isSafeInteger(lastClinicNumber) ||
+          lastClinicNumber < 0 ||
+          lastClinicNumber >= Number.MAX_SAFE_INTEGER
+        ) {
+          throw new Error("Clinic ID allocation needs administrator setup.");
+        }
+
+        const nextClinicNumber = lastClinicNumber + 1;
+        const clinicCode = `CLN-${String(nextClinicNumber).padStart(6, "0")}`;
+        const now = new Date();
+
+        // Generate a unique clinic doc ID
+        const clinicDocId = `clinic_${userId}`;
+        const clinicRef = doc(db, "clinics", clinicDocId);
+        const membershipRef = doc(db, "clinics", clinicDocId, "members", userId);
+
+        transaction.set(clinicRef, {
+          clinicId: clinicDocId,
+          clinicCode,
+          ownerUid: userId,
+          name: profile.clinicName,
+          address: profile.clinicAddress,
+          registrationNumber: profile.registrationNumber,
+          status: "active",
+          settings: {
+            language: "en",
+            theme: "system",
+            paperSize: "A4",
+            orientation: "portrait",
+            margins: { top: 12, right: 12, bottom: 12, left: 12 },
+            prescriptionHeader: profile.clinicName,
+            prescriptionFooter: profile.clinicAddress,
+            receptionistPermissions: DEFAULT_RECEPTIONIST_PERMISSIONS,
+          },
+          createdAt: now,
+          updatedAt: now,
+        });
+
+        transaction.set(membershipRef, {
+          uid: userId,
+          role: "doctor",
+          status: "active",
+          name: profile.name,
+          email: email.toLowerCase(),
+          joinedAt: now,
+        });
+
+        transaction.set(doc(db, "clinicCodes", clinicCode), {
+          clinicId: clinicDocId,
+          clinicCode,
+        });
+
+        transaction.set(
+          userRef,
+          {
+            uid: userId,
+            email: email.toLowerCase(),
+            name: profile.name,
+            age: profile.age,
+            qualification: profile.qualification,
+            specializations: profile.specializations,
+            role: "doctor",
+            clinicId: clinicDocId,
+            clinicCode,
+            profileComplete: true,
+            updatedAt: now,
+          },
+          { merge: true }
+        );
+
+        transaction.set(counterRef, { lastClinicNumber: nextClinicNumber });
       });
 
       router.replace("/dashboard");
     } catch (error) {
       console.error("Doctor and clinic profile setup failed:", error);
-      if (error instanceof FirebaseError) {
-        switch (error.code) {
-          case "functions/unauthenticated":
-            setMessage("Your session expired. Please sign in again.");
-            router.replace("/");
-            break;
-          case "functions/invalid-argument":
-          case "functions/failed-precondition":
-            setMessage(error.message);
-            break;
-          case "functions/unavailable":
-            setMessage(
-              "Profile setup is temporarily unavailable. Please try again later."
-            );
-            break;
-          case "functions/not-found":
-            setMessage(
-              "The profile setup function is not deployed to this Firebase project yet. Deploy the Firebase function and try again."
-            );
-            break;
-          case "functions/internal":
-            setMessage(
-              "Firebase could not complete profile setup. Confirm the function is deployed to this app's Firebase project, then check its Cloud Function logs."
-            );
-            break;
-          default:
-            setMessage(
-              "We could not save your profile. Please try again; if the issue continues, contact support."
-            );
-        }
+      if (error instanceof Error) {
+        setMessage(error.message);
       } else {
         setMessage(
           "We could not save your profile. Please check your connection and try again."

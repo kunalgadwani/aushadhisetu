@@ -1,11 +1,10 @@
 "use client";
 
 import { FormEvent, useEffect, useState } from "react";
-import { addDoc, collection, getDocs } from "firebase/firestore";
-import { httpsCallable } from "firebase/functions";
+import { addDoc, collection, doc, getDocs, setDoc } from "firebase/firestore";
 import { PermissionGate } from "@/components/PermissionGate";
 import { useApp } from "@/context/AppContext";
-import { db, functions } from "@/lib/firebase";
+import { db } from "@/lib/firebase";
 
 interface MemberRow {
   id: string;
@@ -35,9 +34,21 @@ export default function ReceptionistsPage() {
   }, [user?.clinicId]);
 
   const setStatus = async (uid: string, status: string) => {
-    const callable = httpsCallable(functions, "setReceptionistStatus");
-    await callable({ uid, status });
-    setMembers((current) => current.map((item) => (item.id === uid ? { ...item, status } : item)));
+    if (!user?.clinicId) return;
+    try {
+      await setDoc(
+        doc(db, "clinics", user.clinicId, "members", uid),
+        {
+          status,
+          updatedAt: new Date(),
+        },
+        { merge: true }
+      );
+      setMembers((current) => current.map((item) => (item.id === uid ? { ...item, status } : item)));
+    } catch (error) {
+      console.error(error);
+      setMessage("Could not update receptionist status.");
+    }
   };
 
   const markAttendance = async (event: FormEvent) => {

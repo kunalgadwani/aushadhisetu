@@ -1,10 +1,10 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { httpsCallable } from "firebase/functions";
+import { doc, setDoc } from "firebase/firestore";
 import { PermissionGate } from "@/components/PermissionGate";
 import { useApp } from "@/context/AppContext";
-import { functions } from "@/lib/firebase";
+import { db } from "@/lib/firebase";
 import { PAPER_SIZES } from "@/lib/utils";
 import type { ClinicSettings, ModuleKey } from "@/lib/types";
 
@@ -21,7 +21,7 @@ const MODULES: ModuleKey[] = [
 ];
 
 export default function SettingsPage() {
-  const { settings, refresh } = useApp();
+  const { user, settings, refresh } = useApp();
   const [form, setForm] = useState<ClinicSettings | undefined>(settings);
   const [message, setMessage] = useState("");
 
@@ -31,11 +31,22 @@ export default function SettingsPage() {
 
   const save = async (event: FormEvent) => {
     event.preventDefault();
-    if (!form) return;
-    const callable = httpsCallable(functions, "updateClinicSettings");
-    await callable({ settings: form });
-    await refresh();
-    setMessage("Settings saved.");
+    if (!form || !user?.clinicId) return;
+    try {
+      await setDoc(
+        doc(db, "clinics", user.clinicId),
+        {
+          settings: form,
+          updatedAt: new Date(),
+        },
+        { merge: true }
+      );
+      await refresh();
+      setMessage("Settings saved.");
+    } catch (error) {
+      console.error(error);
+      setMessage("Could not save settings.");
+    }
   };
 
   if (!form) return <p role="status">Loading settings...</p>;

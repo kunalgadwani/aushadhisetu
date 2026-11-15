@@ -30,7 +30,7 @@ interface VisitRow {
 export default function PatientDetailPage() {
   const params = useParams<{ id: string }>();
   const { user, settings } = useApp();
-  const [patient, setPatient] = useState<Record<string, string> | null>(null);
+  const [patient, setPatient] = useState<Record<string, string | boolean> | null>(null);
   const [visits, setVisits] = useState<VisitRow[]>([]);
   const [message, setMessage] = useState("");
 
@@ -57,9 +57,9 @@ export default function PatientDetailPage() {
       setMessage("You can view this patient but cannot edit the record.");
       return;
     }
-    await updateDoc(doc(db, "clinics", user.clinicId, "patients", patient.id), {
+    await updateDoc(doc(db, "clinics", user.clinicId, "patients", patient.id as string), {
       name: patient.name,
-      nameLower: patient.name.toLowerCase(),
+      nameLower: (patient.name as string).toLowerCase(),
       dateOfBirth: patient.dateOfBirth,
       sex: patient.sex,
       pastHistory: patient.pastHistory || "",
@@ -74,14 +74,28 @@ export default function PatientDetailPage() {
 
   const toggleArchive = async () => {
     if (!user?.clinicId || !patient) return;
-    await updateDoc(doc(db, "clinics", user.clinicId, "patients", patient.id), {
-      archived: patient.archived !== "true" && patient.archived !== true,
-    });
-    setPatient({ ...patient, archived: patient.archived ? "" : "true" });
+
+    const nextArchived = patient.archived !== true && patient.archived !== "true";
+
+    await updateDoc(
+      doc(db, "clinics", user.clinicId, "patients", patient.id as string),
+      {
+        archived: nextArchived,
+      }
+    );
+
+    setPatient({ ...patient, archived: nextArchived });
   };
 
   if (!patient) {
-    return <p role="status">Loading patient...</p>;
+    return (
+      <PermissionGate module="patients">
+        <div className="page-stack">
+          <p role="status">Loading patient...</p>
+          {message && <p className="empty-note">{message}</p>}
+        </div>
+      </PermissionGate>
+    );
   }
 
   return (
@@ -91,7 +105,7 @@ export default function PatientDetailPage() {
           <div>
             <h2>{patient.name}</h2>
             <p>
-              {patient.patientCode} · Age {ageFromDob(patient.dateOfBirth)} · {patient.sex}
+              {patient.patientCode} · Age {ageFromDob(patient.dateOfBirth as string)} · {patient.sex}
             </p>
           </div>
           <div className="button-row">
@@ -110,7 +124,7 @@ export default function PatientDetailPage() {
               <label key={field}>
                 {field}
                 <input
-                  value={patient[field] || ""}
+                  value={(patient[field] as string) || ""}
                   onChange={(event) => setPatient({ ...patient, [field]: event.target.value })}
                 />
               </label>
@@ -118,14 +132,14 @@ export default function PatientDetailPage() {
             <label className="onboarding-full-width">
               Past history
               <textarea
-                value={patient.pastHistory || ""}
+                value={(patient.pastHistory as string) || ""}
                 onChange={(event) => setPatient({ ...patient, pastHistory: event.target.value })}
               />
             </label>
             <label className="onboarding-full-width">
               Habits
               <textarea
-                value={patient.habits || ""}
+                value={(patient.habits as string) || ""}
                 onChange={(event) => setPatient({ ...patient, habits: event.target.value })}
               />
             </label>

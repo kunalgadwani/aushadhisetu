@@ -1,9 +1,9 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { httpsCallable } from "firebase/functions";
+import { doc, getDoc, setDoc } from "firebase/firestore";
 import { useApp } from "@/context/AppContext";
-import { functions } from "@/lib/firebase";
+import { auth, db } from "@/lib/firebase";
 
 export default function ProfilePage() {
   const { user, clinic, refresh } = useApp();
@@ -27,18 +27,47 @@ export default function ProfilePage() {
       setMessage("Only the clinic doctor can edit this profile.");
       return;
     }
+    const currentUser = auth.currentUser;
+    if (!currentUser || !user?.clinicId) {
+      setMessage("You must be signed in to update your profile.");
+      return;
+    }
     setLoading(true);
     try {
-      const callable = httpsCallable(functions, "updateDoctorProfile");
-      await callable({
-        name: name.trim(),
-        age: age.trim() ? Number(age) : null,
-        qualification: qualification.trim(),
-        specializations: specializations.split(",").map((item) => item.trim()).filter(Boolean),
-        clinicName: clinicName.trim(),
-        clinicAddress: clinicAddress.trim(),
-        registrationNumber: registrationNumber.trim(),
-      });
+      const now = new Date();
+
+      // Update user document
+      await setDoc(
+        doc(db, "users", currentUser.uid),
+        {
+          name: name.trim(),
+          age: age.trim() ? Number(age) : null,
+          qualification: qualification.trim(),
+          specializations: specializations.split(",").map((item) => item.trim()).filter(Boolean),
+          updatedAt: now,
+        },
+        { merge: true }
+      );
+
+      // Update clinic document
+      await setDoc(
+        doc(db, "clinics", user.clinicId),
+        {
+          name: clinicName.trim(),
+          address: clinicAddress.trim(),
+          registrationNumber: registrationNumber.trim(),
+          updatedAt: now,
+        },
+        { merge: true }
+      );
+
+      // Update member document
+      await setDoc(
+        doc(db, "clinics", user.clinicId, "members", currentUser.uid),
+        { name: name.trim() },
+        { merge: true }
+      );
+
       await refresh();
       setMessage("Profile updated.");
     } catch (error) {

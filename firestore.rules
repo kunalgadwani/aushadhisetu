@@ -25,26 +25,42 @@ service cloud.firestore {
       return request.resource.data.clinicId == clinicId;
     }
 
+    // Users collection: allow read own doc, allow write own doc
     match /users/{userId} {
       allow read: if signedIn() && request.auth.uid == userId;
-      allow write: if false;
+      allow write: if signedIn() && request.auth.uid == userId;
     }
 
+    // Clinic codes: allow read for receptionist lookup, allow create during onboarding
     match /clinicCodes/{code} {
-      allow read, write: if false;
+      allow read: if signedIn();
+      allow create: if signedIn();
+    }
+
+    // System counters: allow read/write for authenticated users (used for clinic ID allocation)
+    match /systemCounters/{counterId} {
+      allow read, write: if signedIn();
     }
 
     match /clinics/{clinicId} {
       allow read: if isActiveClinicMember(clinicId);
-      allow write: if false;
+      // Allow create for onboarding (new clinic), allow update for doctor
+      allow create: if signedIn()
+        && request.resource.data.ownerUid == request.auth.uid;
+      allow update: if isDoctor(clinicId);
 
       match /members/{uid} {
         allow read: if isActiveClinicMember(clinicId);
-        allow write: if false;
+        // Allow create for onboarding (doctor adding self) and receptionist joining
+        allow create: if signedIn()
+          && (uid == request.auth.uid
+            || request.resource.data.uid == request.auth.uid);
+        // Allow update for doctor (managing receptionists) or self
+        allow update: if isDoctor(clinicId) || (signedIn() && request.auth.uid == uid);
       }
 
       match /counters/{counterId} {
-        allow read, write: if false;
+        allow read, write: if isActiveClinicMember(clinicId);
       }
 
       match /patients/{patientId} {
@@ -95,10 +111,6 @@ service cloud.firestore {
           && belongsToClinic(clinicId);
         allow delete: if isDoctor(clinicId);
       }
-    }
-
-    match /systemCounters/{counterId} {
-      allow read, write: if false;
     }
 
     match /{document=**} {

@@ -1,5 +1,5 @@
-import { httpsCallable } from "firebase/functions";
-import { functions } from "@/lib/firebase";
+import { doc, getDoc, setDoc, runTransaction } from "firebase/firestore";
+import { db, auth } from "@/lib/firebase";
 
 export function ageFromDob(dob: string): string {
   if (!dob) return "";
@@ -26,13 +26,47 @@ export function formatCurrency(value: number): string {
   }).format(value || 0);
 }
 
+const RECORD_PREFIX: Record<string, string> = {
+  patient: "P",
+  prescription: "RX",
+  bill: "BILL",
+  visit: "V",
+  medicine: "MED",
+  test: "TST",
+};
+
 export async function allocateRecordId(kind: string): Promise<string> {
-  const callable = httpsCallable<{ kind: string }, { code: string }>(
-    functions,
-    "allocateRecordId"
-  );
-  const result = await callable({ kind });
-  return result.data.code;
+  const user = auth.currentUser;
+  if (!user) throw new Error("Sign in to create records.");
+
+  const prefix = RECORD_PREFIX[kind];
+  if (!prefix) throw new Error("Unknown record kind.");
+
+  // Get user doc to find clinicId
+  const userSnap = await getDoc(doc(db, "users", user.uid));
+  const userData = userSnap.data();
+  if (!userData?.clinicId) throw new Error("Your account is not linked to a clinic.");
+
+  const clinicId = userData.clinicId as string;
+  const counterRef = doc(db, "clinics", clinicId, "counters", kind);
+
+  const code = await runTransaction(db, async (transaction) => {
+    const snapshot = await transaction.get(counterRef);
+    const lastNumber = snapshot.exists() ? snapshot.data()?.lastNumber ?? 0 : 0;
+    if (
+      typeof lastNumber !== "number" ||
+      !Number.isSafeInteger(lastNumber) ||
+      lastNumber < 0
+    ) {
+      throw new Error("Record ID allocation needs administrator setup.");
+    }
+    const nextNumber = lastNumber + 1;
+    const generatedCode = `${prefix}-${String(nextNumber).padStart(6, "0")}`;
+    transaction.set(counterRef, { lastNumber: nextNumber });
+    return generatedCode;
+  });
+
+  return code;
 }
 
 export function billTotal(lines: { quantity: number; price: number }[]): number {
